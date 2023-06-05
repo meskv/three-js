@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+nav {
+  color: #fff;
+  position: relative;
+  display: flex;
+  padding: 4rem 8rem;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -85%);
+}
+
+.hindi-font {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 400;
+}
